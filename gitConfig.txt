@@ -17,6 +17,7 @@ git init -> inicializar un repositorio en git
 git status -> vemos el estado de los archivos
 git restore <file> -> para restaurar el archivo eliminado (incluso antes del commit)
 
+
 ____ENV____
 Si yo quiero ignorar archivos o carpetas, puedo ignorarlas creando un archivo llamado .gitignore y nombrando los archivos que queremos ignorar. 
 Luego deberemos commitear el .gitignore
@@ -28,12 +29,15 @@ M(verde) -> archivo Modificado en la etapa de staged
 ?? -> no ha sido agregado
 A(verde) -> agregando archivo al staged
 
+
 ___GIT DIFF___
 Podemos ver los cambios del archivo y con la letra "q" salimos del diff
 git diff --staged -> solo los cambios que estan en stage y no todo
 
+
 ___GIT LOG___
 Para ver el historia podemos usar git log --oneline -> veremos un codigo con los commit
+
 
 ___BRANCH___
 Creamos ramas para desarrollar una funcionalidad (independientemente de la rama principal) y luego solicitar realizar un merge a nuestra rama de main
@@ -43,6 +47,7 @@ cat <file> -> ver el archivo
 
 Para nosotros poder llevar los cambios de la rama secundaria a la principal, debemos posicionarnos sobre la principal y escribir:
 git merge nombreRama
+
 
 __GITHUB__
 Creamos el repositorio en github y copiamos las dos ultimas lineas:
