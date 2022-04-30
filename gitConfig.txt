@@ -9,6 +9,8 @@ cd -> ingresar a los directorios
 cd .. -> para volver al directorio anterior
 mkdir -> crear un nuevo directorio
 rm -> eliminamos el archivo
+  git rm --cached: mueve los archivos que indiquemos al estado untracked
+  git rm --force: elimina los archivos de git y del disco duro
 mv <file> <new-name-file> -> para cambiar el nombre de los archivos
 
 
@@ -16,6 +18,7 @@ ____GIT____
 git init -> inicializar un repositorio en git
 git status -> vemos el estado de los archivos
 git restore <file> -> para restaurar el archivo eliminado (incluso antes del commit)
+git reset HEAD: quita archivos staged o los devuelve a su estado anterior
 
 
 ____ENV____
@@ -37,6 +40,10 @@ git diff --staged -> solo los cambios que estan en stage y no todo
 
 ___GIT LOG___
 Para ver el historia podemos usar git log --oneline -> veremos un codigo con los commit
+
+
+___GIT REBASE___
+https://es.stackoverflow.com/questions/1267/c%C3%B3mo-modificar-el-mensaje-de-un-commit-en-particular
 
 
 ___BRANCH___
