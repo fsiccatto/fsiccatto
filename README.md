@@ -1,6 +1,12 @@
-- 👋 Hi, I’m @fsiccatto
+
+
+
+
+
+
+- 👋 Hi, I’m Franco Siccatto
 - 👀 I’m interested in programming, football, climbing, nature and trips
-- 🌱 I’m currently learning web development
+- 🌱 I’m currently learning Frontend.
 - 💞️ I’m looking to collaborate on a develop company
 - 📫 How to reach me: Twitter: @FSikkario, Instagram: fsiccatto1, fsiccatto@gmail.com
 
