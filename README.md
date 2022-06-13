@@ -5,7 +5,7 @@
 const sikkario = {
   pronouns: "he" | "him",
   code: ["HTML", "CSS", "JavaScript"],
-  passions: ["web development"],
+  passions: ["web development", "mountains", "climbing"],
 }
 ```
 
