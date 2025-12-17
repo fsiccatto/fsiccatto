@@ -4,7 +4,7 @@
 ```js
 const sikkario = {
   pronouns: "he" | "him",
-  code: ["HTML", "CSS", "JavaScript", "Python", "SQL"]
+  code: ["HTML", "CSS", "JavaScript", "Python", "SQL"],
   tech: Azure
 }
 ```
