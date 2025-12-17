@@ -5,7 +5,7 @@
 const sikkario = {
   pronouns: "he" | "him",
   code: ["HTML", "CSS", "JavaScript", "Python", "SQL"],
-  tech: Azure
+  tech: "Azure"
 }
 ```
 
